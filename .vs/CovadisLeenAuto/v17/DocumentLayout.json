@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87F88B91-248C-4F31-84F6-58EF1B73BFE0}|CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F88B91-248C-4F31-84F6-58EF1B73BFE0}|CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj|solutionrelative:covadisleenauto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.domain\\data\\leenautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|solutionrelative:covadisleenauto.domain\\data\\leenautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.domain\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|solutionrelative:covadisleenauto.domain\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}|CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj|solutionrelative:covadisleenauto.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F88B91-248C-4F31-84F6-58EF1B73BFE0}|CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.api\\covadisleenauto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{87F88B91-248C-4F31-84F6-58EF1B73BFE0}|CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj|solutionrelative:covadisleenauto.api\\covadisleenauto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC72E6E2-918E-408E-A4C7-BED034F2C44C}|CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj|c:\\users\\bian.goole\\source\\repos\\covadisleenauto\\covadisleenauto.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC72E6E2-918E-408E-A4C7-BED034F2C44C}|CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj|solutionrelative:covadisleenauto.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\ServicesConfiguration.cs",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.Domain\\ServicesConfiguration.cs",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\ServicesConfiguration.cs",
+              "RelativeToolTip": "CovadisLeenAuto.Domain\\ServicesConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:46:19.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeenAutoContext.cs",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\Data\\LeenAutoContext.cs",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.Domain\\Data\\LeenAutoContext.cs",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\Data\\LeenAutoContext.cs",
+              "RelativeToolTip": "CovadisLeenAuto.Domain\\Data\\LeenAutoContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:42:30.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.API\\Program.cs",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.API\\Program.cs",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.API\\Program.cs",
+              "RelativeToolTip": "CovadisLeenAuto.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:35:31.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CovadisLeenAuto.API.csproj",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj",
+              "RelativeToolTip": "CovadisLeenAuto.API\\CovadisLeenAuto.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-23T07:24:56.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\Class1.cs",
+              "RelativeToolTip": "CovadisLeenAuto.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:22:34.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "CovadisLeenAuto.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\Class1.cs",
+              "RelativeToolTip": "CovadisLeenAuto.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:21:35.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
