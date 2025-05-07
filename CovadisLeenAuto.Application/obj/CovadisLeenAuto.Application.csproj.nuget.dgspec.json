@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj": {}
+    "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj": {
+    "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
         "projectName": "CovadisLeenAuto.Application",
-        "projectPath": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
+        "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
         "packagesPath": "C:\\Users\\bian.goole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Application\\obj\\",
+        "outputPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

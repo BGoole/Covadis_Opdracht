@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CovadisLeenAuto.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9f41ce2ae519156f9f65acb02264009943c53c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CovadisLeenAuto.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CovadisLeenAuto.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
