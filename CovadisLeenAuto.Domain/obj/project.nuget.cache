@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+RF8w0k6RWg=",
+  "dgSpecHash": "fLBSZi8mWD8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bian.goole\\source\\repos\\CovadisLeenAuto\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bian.goole\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.4\\microsoft.data.sqlite.core.9.0.4.nupkg.sha512",
     "C:\\Users\\bian.goole\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
