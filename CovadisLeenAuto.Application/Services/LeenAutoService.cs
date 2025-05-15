@@ -14,7 +14,7 @@ namespace CovadisLeenAuto.Application.Services
         public LeenAutoService(ILeenAutoRepository leenAutoRepository) { 
             this.leenAutoRepository = leenAutoRepository;
         }
-        public IEnumerable<LeenAutoListItem> GeefAlleLeenAutos()
+        public IEnumerable<GeefAlleLeenAutos> GeefAlleLeenAutos()
         {
             return leenAutoRepository.GeefAlleLeenAutos();
         }

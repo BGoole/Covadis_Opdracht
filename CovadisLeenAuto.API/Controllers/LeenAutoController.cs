@@ -17,7 +17,7 @@ namespace CovadisLeenAuto.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<LeenAutoListItem>> GeefLeenAutos()
+        public ActionResult<IEnumerable<GeefAlleLeenAutos>> GeefLeenAutos()
         {
             return Ok(leenAutoService.GeefAlleLeenAutos());
         }

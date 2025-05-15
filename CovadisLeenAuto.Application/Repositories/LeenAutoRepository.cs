@@ -17,9 +17,9 @@ namespace CovadisLeenAuto.Application.Repositories
             this.leenAutoContext = leenAutoContext;
         }
 
-        public IEnumerable<LeenAutoListItem> GeefAlleLeenAutos()
+        public IEnumerable<GeefAlleLeenAutos> GeefAlleLeenAutos()
         {
-            return leenAutoContext.LeenAutos.Select(x => new LeenAutoListItem
+            return leenAutoContext.LeenAutos.Select(x => new GeefAlleLeenAutos
             {
                 ID = x.ID,
                 Gereserveerd = x.Gereserveerd,
