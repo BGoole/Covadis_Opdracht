@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CovadisLeenAuto.Shared.DTO.Ritten
 {
-    internal class RitListItem
+    public class RitListItem
     {
     }
 }
