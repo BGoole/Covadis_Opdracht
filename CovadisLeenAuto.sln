@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.API", "CovadisLeenAuto.API\CovadisLeenAuto.API.csproj", "{87F88B91-248C-4F31-84F6-58EF1B73BFE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Application", "CovadisLeenAuto.Application\CovadisLeenAuto.Application.csproj", "{AC72E6E2-918E-408E-A4C7-BED034F2C44C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Domain", "CovadisLeenAuto.Domain\CovadisLeenAuto.Domain.csproj", "{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Shared", "CovadisLeenAuto.Shared\CovadisLeenAuto.Shared.csproj", "{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6658B5-2028-49AF-8DB4-B17AFD425B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

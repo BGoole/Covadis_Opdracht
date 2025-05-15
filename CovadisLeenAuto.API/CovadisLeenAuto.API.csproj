@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Repositories\**" />
+    <Content Remove="Repositories\**" />
+    <EmbeddedResource Remove="Repositories\**" />
+    <None Remove="Repositories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,13 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CovadisLeenAuto.Application\CovadisLeenAuto.Application.csproj" />
-    <ProjectReference Include="..\CovadisLeenAuto.Domain\CovadisLeenAuto.Domain.csproj" />
+    <ProjectReference Include="..\CovadisLeenAuto.Shared\CovadisLeenAuto.Shared.csproj" />
   </ItemGroup>
 
 </Project>

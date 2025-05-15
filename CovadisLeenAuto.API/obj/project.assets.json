@@ -1223,6 +1223,10 @@
       "CovadisLeenAuto.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CovadisLeenAuto.Domain": "1.0.0",
+          "CovadisLeenAuto.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CovadisLeenAuto.Application.dll": {}
         },
@@ -1241,6 +1245,16 @@
         },
         "runtime": {
           "bin/placeholder/CovadisLeenAuto.Domain.dll": {}
+        }
+      },
+      "CovadisLeenAuto.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CovadisLeenAuto.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CovadisLeenAuto.Shared.dll": {}
         }
       }
     }
@@ -3676,12 +3690,17 @@
       "type": "project",
       "path": "../CovadisLeenAuto.Domain/CovadisLeenAuto.Domain.csproj",
       "msbuildProject": "../CovadisLeenAuto.Domain/CovadisLeenAuto.Domain.csproj"
+    },
+    "CovadisLeenAuto.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CovadisLeenAuto.Shared/CovadisLeenAuto.Shared.csproj",
+      "msbuildProject": "../CovadisLeenAuto.Shared/CovadisLeenAuto.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "CovadisLeenAuto.Application >= 1.0.0",
-      "CovadisLeenAuto.Domain >= 1.0.0",
+      "CovadisLeenAuto.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.4",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -3721,8 +3740,8 @@
             "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj": {
               "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj"
             },
-            "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj": {
-              "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj"
+            "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj": {
+              "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj"
             }
           }
         }

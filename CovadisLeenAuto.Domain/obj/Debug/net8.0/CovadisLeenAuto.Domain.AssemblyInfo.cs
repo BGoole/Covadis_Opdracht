@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CovadisLeenAuto.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9f41ce2ae519156f9f65acb02264009943c53c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c0c465a848361cd6640bfaa2159506f6373a99")]
 [assembly: System.Reflection.AssemblyProductAttribute("CovadisLeenAuto.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CovadisLeenAuto.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
