@@ -1297,23 +1297,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bian.goole\\.nuget\\packages\\": {},
+    "C:\\Users\\sam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
+      "projectUniqueName": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
       "projectName": "CovadisLeenAuto.Application",
-      "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
-      "packagesPath": "C:\\Users\\bian.goole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\obj\\",
+      "projectPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\CovadisLeenAuto.Application.csproj",
+      "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bian.goole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1328,11 +1328,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj": {
-              "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj"
+            "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj": {
+              "projectPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj"
             },
-            "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj": {
-              "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj"
+            "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj": {
+              "projectPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Shared\\CovadisLeenAuto.Shared.csproj"
             }
           }
         }

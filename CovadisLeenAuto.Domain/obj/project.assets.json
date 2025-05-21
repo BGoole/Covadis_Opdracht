@@ -1263,23 +1263,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bian.goole\\.nuget\\packages\\": {},
+    "C:\\Users\\sam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
       "projectName": "CovadisLeenAuto.Domain",
-      "projectPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
-      "packagesPath": "C:\\Users\\bian.goole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bian.goole\\Source\\Repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\obj\\",
+      "projectPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\CovadisLeenAuto.Domain.csproj",
+      "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sam\\source\\repos\\Covadis_Opdracht\\CovadisLeenAuto.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bian.goole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
