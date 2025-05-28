@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Domain", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Shared", "CovadisLeenAuto.Shared\CovadisLeenAuto.Shared.csproj", "{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovadisLeenAuto.Blazor", "CovadisLeenAuto.Blazor\CovadisLeenAuto.Blazor.csproj", "{CC1F7A93-D0EF-4A1D-AC19-F28209769AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D40C3A-1D1C-47F9-9BBB-B5CD0766FEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1F7A93-D0EF-4A1D-AC19-F28209769AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1F7A93-D0EF-4A1D-AC19-F28209769AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1F7A93-D0EF-4A1D-AC19-F28209769AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1F7A93-D0EF-4A1D-AC19-F28209769AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
