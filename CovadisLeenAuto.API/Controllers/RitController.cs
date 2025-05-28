@@ -7,5 +7,6 @@ namespace CovadisLeenAuto.API.Controllers
     [ApiController]
     public class RitController : ControllerBase
     {
+
     }
 }
