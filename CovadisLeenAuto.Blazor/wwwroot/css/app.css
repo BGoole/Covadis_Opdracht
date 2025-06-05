@@ -101,3 +101,18 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+/*custom CSS*/
+
+.form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+input, select{
+    margin-bottom: 10px;
+    width: 100%;
+}
