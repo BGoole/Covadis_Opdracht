@@ -16,12 +16,13 @@ namespace CovadisLeenAuto.Application.Repositories
         {
             this.leenAutoContext = leenAutoContext;
         }
-
         public IEnumerable<GeefAlleLeenAutos> GeefAlleLeenAutos()
         {
             return leenAutoContext.LeenAutos.Select(x => new GeefAlleLeenAutos
             {
                 ID = x.ID,
+                GereserveerdVan = x.GereserveerdVan,
+                GereserveerdTot = x.GereserveerdTot,
                 Gereserveerd = x.Gereserveerd,
                 Type = x.Type,
             }).ToList();
