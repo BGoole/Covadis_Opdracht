@@ -6,16 +6,7 @@
 
 <p>your cars will be displayed here</p>
 
-<!--
-    chauffeur
-    autos
-    begin eind addresss
-    
-    
-    button
--->
-
-<form action="#" method="post">
+<form action="#" method="post" class="form">
     <label for="chauffeur">Chauffeur</label>
     <!--change the hard value to one added by code-->
     <select name="chauffeurs">
@@ -23,13 +14,22 @@
     </select>
     <label for="autos">Auto</label>
     <select name="autos">
-        <option value="auto">auto</option>
+        @foreach (var auto in autos)
+        {
+                <option value="auto">@auto.Type</option>
+        }
     </select>
     <label for="beginAdres">Begin address</label>
     <input type="text" name="beginAdres" />
 
     <label for="beginAdres">Eind address</label>
     <input type="text" name="eindAdres" />
+
+    <label for="beginDatum">Begin datum</label>
+    <input type="date" name="beginDatum" />
+
+    <label for="eindDatum">Eind datum</label>
+    <input type="date" name="eindDatum" />
 
     <button name="reserveer">reserveer</button>
 </form>

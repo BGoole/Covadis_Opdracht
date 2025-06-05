@@ -24,6 +24,15 @@ namespace CovadisLeenAuto.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("StaAlleAanvragenToe",
+                    builder => builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+            });
+
             //AddScoped< Hier moet nog repository >
 
             var app = builder.Build();
@@ -39,6 +48,7 @@ namespace CovadisLeenAuto.API
 
             app.UseAuthorization();
 
+            app.UseCors("StaAlleAanvragenToe");
 
             app.MapControllers();
 

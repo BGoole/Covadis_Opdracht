@@ -10,12 +10,12 @@ namespace CovadisLeenAuto.Blazor.Pages
         [Inject]
         private HttpClient HttpClient { get; set; }
 
-        //private IEnumerable<GeefAlleLeenAutos> autos = [];
+        private IEnumerable<GeefAlleLeenAutos> autos = [];
 
-        //protected override async Task OnInitializedAsync()
-        //{
-        //    autos = await HttpClient.GetFromJsonAsync<IEnumerable<GeefAlleLeenAutos>>("api/autos");
-        //}
+        protected override async Task OnInitializedAsync()
+        {
+            autos = await HttpClient.GetFromJsonAsync<IEnumerable<GeefAlleLeenAutos>>("api/LeenAuto");
+        }
 
         //private void BoekAanmaken()
         //{
