@@ -16,8 +16,10 @@ namespace CovadisLeenAuto.API
             ServicesConfiguration.RegisterServices(builder.Services, builder.Configuration.GetConnectionString("DefaultConnection"));
 
             builder.Services.AddScoped<ILeenAutoService, LeenAutoService>();
-
             builder.Services.AddScoped<ILeenAutoRepository, LeenAutoRepository>();
+
+            builder.Services.AddScoped<IWerknemerService, WerknemerService>();
+            builder.Services.AddScoped<IWerknemerRepository, WerknemerRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
