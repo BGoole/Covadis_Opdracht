@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using CovadisLeenAuto.Blazor;
 
 namespace CovadisLeenAuto.Blazor
 {
@@ -11,7 +12,8 @@ namespace CovadisLeenAuto.Blazor
             builder.RootComponents.Add<App>("#app");
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            var apiUrl = "https://localhost:7068/";
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });
 
             await builder.Build().RunAsync();
         }

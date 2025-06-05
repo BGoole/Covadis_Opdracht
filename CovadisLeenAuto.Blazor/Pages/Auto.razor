@@ -23,7 +23,10 @@
     </select>
     <label for="autos">Auto</label>
     <select name="autos">
-        <option value="auto">auto</option>
+        @foreach (var auto in autos)
+        {
+                <option value="auto">@auto.Type</option>
+        }
     </select>
     <label for="beginAdres">Begin address</label>
     <input type="text" name="beginAdres" />
