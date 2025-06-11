@@ -1,4 +1,5 @@
 ﻿using CovadisLeenAuto.Application.Interfaces;
+using CovadisLeenAuto.Shared.DTO.Werknemers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,8 +9,17 @@ namespace CovadisLeenAuto.API.Controllers
     [ApiController]
     public class WerknemerController : ControllerBase
     {
-        private readonly IWerknemerRepository werknemerRepository;
+        private readonly IWerknemerService werknemerService;
+        
+        public WerknemerController(IWerknemerService werknemerService)
+        {
+            this.werknemerService = werknemerService;
+        }
 
-
+        [HttpGet]
+        public ActionResult<IEnumerable<GeefWerknemers>> GeefWerknemers()
+        {
+            return Ok(werknemerService.GeefWerknemers());
+        }
     }
 }
