@@ -11,13 +11,14 @@ namespace CovadisLeenAuto.Application.Services
     public class WerknemerService : IWerknemerService
     {
         private readonly IWerknemerRepository werknemerRepository;
+
         public WerknemerService(IWerknemerRepository werknemerRepository)
         {
             this.werknemerRepository = werknemerRepository;
         }
-        public IEnumerable<GeefAlleWerknemers> GeefAlleWerknemers()
+        public IEnumerable<GeefWerknemers> GeefWerknemers()
         {
-            return werknemerRepository.GeefAlleWerknemers();
+            return werknemerRepository.GeefWerknemers();
         }
     }
 }

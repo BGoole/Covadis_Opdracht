@@ -9,6 +9,6 @@ namespace CovadisLeenAuto.Application.Interfaces
 {
     public interface IWerknemerRepository
     {
-        IEnumerable<GeefAlleWerknemers> GeefAlleWerknemers();
+        IEnumerable<GeefWerknemers> GeefWerknemers(); 
     }
 }

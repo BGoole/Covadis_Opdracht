@@ -10,15 +10,16 @@ namespace CovadisLeenAuto.API.Controllers
     public class WerknemerController : ControllerBase
     {
         private readonly IWerknemerService werknemerService;
-
+        
         public WerknemerController(IWerknemerService werknemerService)
         {
             this.werknemerService = werknemerService;
         }
+
         [HttpGet]
-        public ActionResult<IEnumerable<GeefAlleWerknemers>> GeefAlleWerknemers()
+        public ActionResult<IEnumerable<GeefWerknemers>> GeefWerknemers()
         {
-            return Ok(werknemerService.GeefAlleWerknemers());
+            return Ok(werknemerService.GeefWerknemers());
         }
     }
 }
