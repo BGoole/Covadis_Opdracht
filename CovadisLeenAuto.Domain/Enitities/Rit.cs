@@ -10,6 +10,7 @@ namespace CovadisLeenAuto.Domain.Enitities
     {
         public int ID { get; set; }
         public int WerknemerID { get; set; }
+        public int LeenautoID { get; set; }
         public int KilometerStandBegin {  get; set; }
         public int KilometerStandEind { get; set; }
         public DateTime BeginDatum { get; set; }
@@ -19,5 +20,6 @@ namespace CovadisLeenAuto.Domain.Enitities
         //De klant wilt het liefst per kwartier
         // DateTime today = DateTime.Today;
         public virtual Werknemer? Werknemer { get; set; }
+        public virtual LeenAuto? Leenuto { get; set; }
     }
 }

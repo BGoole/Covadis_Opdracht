@@ -10,6 +10,7 @@ namespace CovadisLeenAuto.Shared.DTO.Ritten
     {
         public int ID { get; set; }
         public int WerknemerID { get; set; }
+        public int LeenautoID { get; set; }
         public int KilometerStandBegin { get; set; }
         public int KilometerStandEind { get; set; }
         public DateTime BeginDatum { get; set; }
