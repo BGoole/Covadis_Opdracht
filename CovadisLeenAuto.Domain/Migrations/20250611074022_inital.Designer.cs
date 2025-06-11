@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CovadisLeenAuto.Domain.Migrations
 {
     [DbContext(typeof(LeenAutoContext))]
-    [Migration("20250611072743_initial")]
-    partial class initial
+    [Migration("20250611074022_inital")]
+    partial class inital
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
