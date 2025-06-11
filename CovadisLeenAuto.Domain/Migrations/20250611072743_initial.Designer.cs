@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CovadisLeenAuto.Domain.Migrations
 {
     [DbContext(typeof(LeenAutoContext))]
-    [Migration("20250528085138_CreateWerknemers")]
-    partial class CreateWerknemers
+    [Migration("20250611072743_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,8 +55,8 @@ namespace CovadisLeenAuto.Domain.Migrations
                         {
                             ID = 1,
                             Gereserveerd = false,
-                            GereserveerdTot = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            GereserveerdVan = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GereserveerdTot = new DateTime(2025, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GereserveerdVan = new DateTime(2025, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Kenteken = "aa11bc2",
                             KilometerStand = 1234,
                             Type = "Honda Civic"
@@ -64,12 +64,22 @@ namespace CovadisLeenAuto.Domain.Migrations
                         new
                         {
                             ID = 2,
-                            Gereserveerd = true,
-                            GereserveerdTot = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            GereserveerdVan = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Gereserveerd = false,
+                            GereserveerdTot = new DateTime(2022, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GereserveerdVan = new DateTime(2023, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Kenteken = "mw-99-99",
                             KilometerStand = 1010,
                             Type = "Fiat Multipla"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Gereserveerd = true,
+                            GereserveerdTot = new DateTime(2025, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GereserveerdVan = new DateTime(2025, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Kenteken = "qa-12-30",
+                            KilometerStand = 500,
+                            Type = "BMW M5"
                         });
                 });
 
