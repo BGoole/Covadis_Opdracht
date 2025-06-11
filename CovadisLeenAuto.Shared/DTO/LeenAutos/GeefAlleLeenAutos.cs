@@ -10,6 +10,8 @@ namespace CovadisLeenAuto.Shared.DTO.LeenAutos
     {
         public int ID { get; set; }
         public string Type { get; set; }
+        public DateTime GereserveerdVan { get; set; }
+        public DateTime GereserveerdTot { get; set; }
         public bool Gereserveerd { get; set; }
     }
 }

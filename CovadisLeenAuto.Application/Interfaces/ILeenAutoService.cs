@@ -10,6 +10,6 @@ namespace CovadisLeenAuto.Application.Interfaces
     public interface ILeenAutoService
     {
         IEnumerable<GeefAlleLeenAutos> GeefAlleLeenAutos();
-
+        
     }
 }

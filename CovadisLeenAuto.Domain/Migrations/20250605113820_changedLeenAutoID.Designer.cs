@@ -3,6 +3,7 @@ using System;
 using CovadisLeenAuto.Domain.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CovadisLeenAuto.Domain.Migrations
 {
     [DbContext(typeof(LeenAutoContext))]
-    partial class LeenAutoContextModelSnapshot : ModelSnapshot
+    [Migration("20250605113820_changedLeenAutoID")]
+    partial class changedLeenAutoID
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
@@ -72,11 +75,11 @@ namespace CovadisLeenAuto.Domain.Migrations
                         {
                             ID = 3,
                             Gereserveerd = true,
-                            GereserveerdTot = new DateTime(2025, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GereserveerdTot = new DateTime(2025, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             GereserveerdVan = new DateTime(2025, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Kenteken = "qa-12-30",
-                            KilometerStand = 500,
-                            Type = "BMW M5"
+                            Kenteken = "mw-99-99",
+                            KilometerStand = 1010,
+                            Type = "Fiat Multipla"
                         });
                 });
 
