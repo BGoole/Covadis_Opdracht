@@ -10,6 +10,8 @@ namespace CovadisLeenAuto.Application.Interfaces
     public interface ILeenAutoService
     {
         IEnumerable<GeefAlleLeenAutos> GeefAlleLeenAutos();
-        
+        Task UpdateLeenAuto(int id, UpdateLeenAuto leenAuto);
+        Task<GeefLeenAuto?> GeefLeenAuto(int id);
+ 
     }
 }

@@ -1,4 +1,4 @@
-﻿using CovadisLeenAuto.Application.Interfaces;
+using CovadisLeenAuto.Application.Interfaces;
 using CovadisLeenAuto.Domain.Enitities;
 using CovadisLeenAuto.Shared.DTO.Ritten;
 using Microsoft.AspNetCore.Http;
@@ -21,14 +21,20 @@ namespace CovadisLeenAuto.API.Controllers
         {
             try
             {
-                var id = await ritService.StoreRit();
-
+                var id = await ritService.StoreRit(rit);
                 return Ok(id);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex); 
+                return BadRequest(ex.Message);
             }
+        }
+
+        [HttpGet] 
+        public async Task<IActionResult> GeefAlleRitten()
+        {
+            return Ok(await ritService.GeefAlleRitten());
+        }
 
     }
 }

@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace CovadisLeenAuto.Domain.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,6 +22,8 @@ namespace CovadisLeenAuto.Domain.Migrations
                     Type = table.Column<string>(type: "TEXT", nullable: false),
                     Kenteken = table.Column<string>(type: "TEXT", nullable: false),
                     Gereserveerd = table.Column<bool>(type: "INTEGER", nullable: false),
+                    GereserveerdVan = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    GereserveerdTot = table.Column<DateTime>(type: "TEXT", nullable: false),
                     KilometerStand = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -47,6 +51,7 @@ namespace CovadisLeenAuto.Domain.Migrations
                     ID = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     WerknemerID = table.Column<int>(type: "INTEGER", nullable: false),
+                    LeenautoID = table.Column<int>(type: "INTEGER", nullable: false),
                     KilometerStandBegin = table.Column<int>(type: "INTEGER", nullable: false),
                     KilometerStandEind = table.Column<int>(type: "INTEGER", nullable: false),
                     BeginDatum = table.Column<DateTime>(type: "TEXT", nullable: false),
@@ -58,6 +63,12 @@ namespace CovadisLeenAuto.Domain.Migrations
                 {
                     table.PrimaryKey("PK_Ritten", x => x.ID);
                     table.ForeignKey(
+                        name: "FK_Ritten_LeenAutos_LeenautoID",
+                        column: x => x.LeenautoID,
+                        principalTable: "LeenAutos",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
                         name: "FK_Ritten_Werknemers_WerknemerID",
                         column: x => x.WerknemerID,
                         principalTable: "Werknemers",
@@ -67,8 +78,28 @@ namespace CovadisLeenAuto.Domain.Migrations
 
             migrationBuilder.InsertData(
                 table: "LeenAutos",
-                columns: new[] { "ID", "Gereserveerd", "Kenteken", "KilometerStand", "Type" },
-                values: new object[] { 1, false, "aa11bc2", 1234, "Honda Civic" });
+                columns: new[] { "ID", "Gereserveerd", "GereserveerdTot", "GereserveerdVan", "Kenteken", "KilometerStand", "Type" },
+                values: new object[,]
+                {
+                    { 1, false, new DateTime(2025, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2025, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "aa11bc2", 1234, "Honda Civic" },
+                    { 2, false, new DateTime(2022, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2023, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "mw-99-99", 1010, "Fiat Multipla" },
+                    { 3, true, new DateTime(2025, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2025, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified), "qa-12-30", 500, "BMW M5" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Werknemers",
+                columns: new[] { "ID", "Naam" },
+                values: new object[,]
+                {
+                    { 1, "Mathijs" },
+                    { 2, "Emilio" },
+                    { 3, "Juan" }
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Ritten_LeenautoID",
+                table: "Ritten",
+                column: "LeenautoID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Ritten_WerknemerID",
@@ -80,10 +111,10 @@ namespace CovadisLeenAuto.Domain.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "LeenAutos");
+                name: "Ritten");
 
             migrationBuilder.DropTable(
-                name: "Ritten");
+                name: "LeenAutos");
 
             migrationBuilder.DropTable(
                 name: "Werknemers");

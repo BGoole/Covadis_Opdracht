@@ -102,6 +102,9 @@ namespace CovadisLeenAuto.Domain.Migrations
                     b.Property<int>("KilometerStandEind")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("LeenautoID")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("StartAdres")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -110,6 +113,8 @@ namespace CovadisLeenAuto.Domain.Migrations
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("LeenautoID");
 
                     b.HasIndex("WerknemerID");
 
@@ -150,11 +155,19 @@ namespace CovadisLeenAuto.Domain.Migrations
 
             modelBuilder.Entity("CovadisLeenAuto.Domain.Enitities.Rit", b =>
                 {
+                    b.HasOne("CovadisLeenAuto.Domain.Enitities.LeenAuto", "Leenauto")
+                        .WithMany()
+                        .HasForeignKey("LeenautoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("CovadisLeenAuto.Domain.Enitities.Werknemer", "Werknemer")
                         .WithMany()
                         .HasForeignKey("WerknemerID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Leenauto");
 
                     b.Navigation("Werknemer");
                 });

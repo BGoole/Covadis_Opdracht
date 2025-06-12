@@ -15,5 +15,6 @@ namespace CovadisLeenAuto.Domain.Enitities
         public DateTime GereserveerdVan { get; set; }
         public DateTime GereserveerdTot { get; set; }
         public int KilometerStand { get; set; }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +19,10 @@ namespace CovadisLeenAuto.Application.Services
         public async Task<int> StoreRit(StoreRitten rit)
         {
             return await ritRepository.StoreRit(rit);
+        }
+        public async Task<IEnumerable<GeefAlleRitten>> GeefAlleRitten()
+        {
+            return await ritRepository.GeefAlleRitten();
         }
     }   
 }

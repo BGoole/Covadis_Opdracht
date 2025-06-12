@@ -1,4 +1,5 @@
-﻿using CovadisLeenAuto.Application.Interfaces;
+﻿using System.ComponentModel.DataAnnotations;
+using CovadisLeenAuto.Application.Interfaces;
 using CovadisLeenAuto.Shared.DTO.LeenAutos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,5 +22,26 @@ namespace CovadisLeenAuto.API.Controllers
         {
             return Ok(leenAutoService.GeefAlleLeenAutos());
         }
+        [HttpGet("{ID}")]
+        public async Task<IActionResult> GeefLeenAuto(int ID)
+        {
+            GeefLeenAuto? retval = await leenAutoService.GeefLeenAuto(ID);
+            return retval != null ? Ok(retval) : NotFound();
+        }
+        [HttpPut("{ID}")]
+        public async Task<IActionResult> UpdateLeenAuto(int ID, UpdateLeenAuto leenauto)
+        {
+            try
+            {
+                await leenAutoService.UpdateLeenAuto(ID, leenauto);
+                return Ok();
+            } catch(ValidationException ex)
+            {
+                return BadRequest(ex.Message);
+            } catch( Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        } 
     }
 }

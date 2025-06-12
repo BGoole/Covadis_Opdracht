@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,7 @@ namespace CovadisLeenAuto.Application.Interfaces
     public interface IRitRepository
     {
         Task<int> StoreRit(StoreRitten rit);
+        Task<IEnumerable<GeefAlleRitten>> GeefAlleRitten();
+
     }
 }

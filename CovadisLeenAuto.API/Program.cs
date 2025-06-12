@@ -21,6 +21,9 @@ namespace CovadisLeenAuto.API
             builder.Services.AddScoped<IWerknemerService, WerknemerService>();
             builder.Services.AddScoped<IWerknemerRepository, WerknemerRepository>();
 
+            builder.Services.AddScoped<IRitService, RitService>();
+            builder.Services.AddScoped<IRitRepository, RitRepository>();
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

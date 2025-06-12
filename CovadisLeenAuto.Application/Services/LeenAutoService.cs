@@ -18,5 +18,13 @@ namespace CovadisLeenAuto.Application.Services
         {
             return leenAutoRepository.GeefAlleLeenAutos();
         }
+        public async Task UpdateLeenAuto(int id, UpdateLeenAuto leenauto)
+        {
+            await leenAutoRepository.UpdateLeenAuto(id, leenauto);
+        }
+        public async Task<GeefLeenAuto?> GeefLeenAuto(int id)
+        {
+            return await leenAutoRepository.GeefLeenAuto(id);
+        }
     }
 }

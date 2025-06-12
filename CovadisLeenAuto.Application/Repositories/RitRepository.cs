@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,21 @@ namespace CovadisLeenAuto.Application.Repositories
         {
             this.leenAutoContext = leenAutoContext;
         }
-
+        public async Task<IEnumerable<GeefAlleRitten>> GeefAlleRitten()
+        {
+            return await leenAutoContext.Ritten.Select(static b => new GeefAlleRitten
+            {
+                ID = b.ID,
+                BeginDatum = b.BeginDatum,
+                EindDatum = b.EindDatum,
+                EindAdres = b.EindAdres,
+                StartAdres = b.StartAdres,
+                KilometerStandBegin = b.KilometerStandBegin,
+                KilometerStandEind = b.KilometerStandEind,
+                WerknemerID = b.WerknemerID,
+                LeenautoID = b.LeenautoID,
+            }).ToListAsync();
+        }
         public async Task<int> StoreRit(StoreRitten rit)
         {
             if(!await leenAutoContext.LeenAutos.AnyAsync(b => b.ID == rit.LeenautoID)) {

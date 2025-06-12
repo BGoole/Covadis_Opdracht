@@ -8,7 +8,6 @@ namespace CovadisLeenAuto.Shared.DTO.Ritten
 {
     public class StoreRitten
     {
-        public int ID { get; set; }
         public int WerknemerID { get; set; }
         public int LeenautoID { get; set; }
         public int KilometerStandBegin { get; set; }
