@@ -21,14 +21,20 @@ namespace CovadisLeenAuto.API.Controllers
         {
             try
             {
-                var id = await ritService.StoreRit();
-
+                var id = await ritService.StoreRit(rit);
                 return Ok(id);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex); 
+                return BadRequest(ex.Message);
             }
+        }
+
+        [HttpGet] 
+        public async Task<IActionResult> GeefAlleRitten()
+        {
+            return Ok(await ritService.GeefAlleRitten());
+        }
 
     }
 }

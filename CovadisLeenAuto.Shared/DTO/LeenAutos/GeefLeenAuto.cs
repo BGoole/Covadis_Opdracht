@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CovadisLeenAuto.Shared.DTO.LeenAutos
 {
-    public class GeefAlleLeenAutos
+    public class GeefLeenAuto
     {
         public int ID { get; set; }
         public string Type { get; set; }

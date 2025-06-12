@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CovadisLeenAuto.Shared.DTO.LeenAutos
 {
-    public class GeefAlleLeenAutos
+    public class UpdateLeenAuto
     {
         public int ID { get; set; }
         public string Type { get; set; }
@@ -15,5 +15,6 @@ namespace CovadisLeenAuto.Shared.DTO.LeenAutos
         public DateTime GereserveerdVan { get; set; }
         public DateTime GereserveerdTot { get; set; }
         public int KilometerStand { get; set; }
+
     }
 }

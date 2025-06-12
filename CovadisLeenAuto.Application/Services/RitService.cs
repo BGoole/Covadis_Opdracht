@@ -20,5 +20,9 @@ namespace CovadisLeenAuto.Application.Services
         {
             return await ritRepository.StoreRit(rit);
         }
+        public async Task<IEnumerable<GeefAlleRitten>> GeefAlleRitten()
+        {
+            return await ritRepository.GeefAlleRitten();
+        }
     }   
 }
