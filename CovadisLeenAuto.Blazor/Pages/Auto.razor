@@ -6,30 +6,36 @@
 
 <p>your cars will be displayed here</p>
 
-<form action="#" method="post" class="form">
-    <label for="chauffeur">Chauffeur</label>
+<form @onsubmit="Submit">
+    <label for="werknemer">Werknemer</label>
     <!--change the hard value to one added by code-->
-    <select name="chauffeurs">
-        <option value="chauffeur">chauffeur</option>
+    <select name="werknemers">
+        @foreach (var werknemer in werknemers)
+        {
+            <option value="werknemer" @bind="@rit.WerknemerID">@werknemer.Naam</option>
+        }
     </select>
     <label for="autos">Auto</label>
     <select name="autos">
         @foreach (var auto in autos)
         {
-                <option value="auto">@auto.Type</option>
+            if(!auto.Gereserveerd)
+            {
+                <option value="auto" @bind="@rit.leenautoID">@auto.Type</option>
+            }
         }
     </select>
-    <label for="beginAdres">Begin address</label>
+    <label for="beginAdres" @bind="@rit.KilometerStandBegin">Begin address</label>
     <input type="text" name="beginAdres" />
 
-    <label for="beginAdres">Eind address</label>
+    <label for="beginAdres" @bind="@rit.KilometerStandEind">Eind address</label>
     <input type="text" name="eindAdres" />
 
-    <label for="beginDatum">Begin datum</label>
+    <label for="beginDatum" @bind="@rit.BeginDatum">Begin datum</label>
     <input type="date" name="beginDatum" />
 
-    <label for="eindDatum">Eind datum</label>
+    <label for="eindDatum" @bind="@rit.EindDatum">Eind datum</label>
     <input type="date" name="eindDatum" />
 
-    <button name="reserveer">reserveer</button>
+    <button name="reserveer" type="submit">Reserveer</button>
 </form>
