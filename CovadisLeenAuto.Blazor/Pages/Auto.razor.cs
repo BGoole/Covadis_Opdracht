@@ -44,17 +44,17 @@ namespace CovadisLeenAuto.Blazor.Pages
             }
         }
 
-        private int checkDatum(DateTime datum1, DateTime datum2)
-        {
-            string relationship;
-            int result = DateTime.Compare(datum1, datum2);
-            if (result < 0)
-                relationship = "is earlier than";
-            else if (result == 0)
-                relationship = "is the same time as";
-            else
-                relationship = "is later than";
-            return result;
-        }
+        //private bool checkDatum(DateTime datum1, DateTime datum2)
+        //{
+        //    bool between;
+        //    int result = DateTime.Compare(datum1, datum2);
+        //    if (result < 0) //before date
+        //        between = true;
+        //    else if (result == 0) //same date
+        //        between = false;
+        //    else //after date
+        //        between = true;
+        //    return between;
+        //}
     }
 }
